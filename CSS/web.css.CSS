@@ -4,8 +4,17 @@
 	box-sizing: border-box;
 }
 
+.img1 {
+	float: left;
+	width: 7%;
+}
+
 body {
 	margin: 0;
+}
+
+.h2 {
+	text-align: center;
 }
 
 h1, h2, p, .topnav {
@@ -14,8 +23,9 @@ h1, h2, p, .topnav {
 /* Style the Header */
 .header {
 	background-color: lightblue;
-	padding: 20px;
+	padding: 5px;
 	text-align: left;
+	overflow: auto;
 	
 }
 
@@ -27,7 +37,7 @@ h1, h2, p, .topnav {
 
 /* Style the topnav Links */
 .topnav a{
-	float: right;
+	float: left;
 	display: block;
 	color: black;
 	text-align: center;
