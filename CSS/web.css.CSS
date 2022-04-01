@@ -5,8 +5,8 @@
 }
 
 .img1 {
-	float: left;
-	width: 6.5%;
+	float: inherit;
+	width: 5%;
 }
 
 body {
@@ -24,7 +24,7 @@ h1, h2, p, .topnav {
 .header {
 	background-color: lightblue;
 	padding: 5px;
-	text-align: left;
+	text-align: center;
 	
 }
 
