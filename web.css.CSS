@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+h1, h2, p, .topnav {
+	font-family: Century Gothic;
+}
+/* Style the Header */
+.header {
+	background-color: lightblue;
+	padding: 20px;
+	text-align: center;
+	
+}
+
+/* Style the top Navigation Bar */
+.topnav  {
+	overflow: hidden;
+	background-color: lightgreen;
+}
+
+/* Style the topnav Links */
+.topnav a{
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+	background-color: black;
+	color: white;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear:  both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+	.column {
+		width: 100%
+	}
+}
+
+/* Style the Footer */
+.footer {
+	background-color: #f1f1f1;
+	padding: 10px;
+	text-align: center;
+}
+
+img {
+	width: 25%;
+}
+
+/* Left, Middle, Right Column */
+.column.side {
+	width: 25%;
+}
+
+.column.middle {
+	width: 50%;
+}
+
