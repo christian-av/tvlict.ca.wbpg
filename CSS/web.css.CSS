@@ -27,7 +27,7 @@ h1, h2, p, .topnav {
 
 /* Style the topnav Links */
 .topnav a{
-	float: left;
+	float: right;
 	display: block;
 	color: black;
 	text-align: center;
